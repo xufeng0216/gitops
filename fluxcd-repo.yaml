@@ -1,0 +1,9 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: flask-deployment
+spec:
+  interval: 5s
+  ref:
+    branch: main
+  url: https://github.com/xufeng0216/gitops
