@@ -17,4 +17,4 @@ spec:
     spec:
       containers:
       - name: flask
-        image: xufenghub/hellloworld-flask:v2.0.0
+        image: xufenghub/hellloworld-flask:v1.0.0
